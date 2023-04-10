@@ -3,6 +3,15 @@ body {
     color: aqua;
 }
 
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
 .navbar {
     background-color: aqua;
     color: black;
@@ -10,4 +19,8 @@ body {
 
 .card {
     color: black;
+}
+
+#contact-link{
+    color: aqua;
 }
