@@ -17,10 +17,23 @@ a:hover {
     color: black;
 }
 
+.navbar a:hover {
+    background-color: black;
+    color: aqua;
+}
+
 .card {
     color: black;
 }
 
-#contact-link{
-    color: aqua;
+.list-group-item {
+    background-color: aqua;
+}
+
+.contact-link {
+    color: black;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
 }
