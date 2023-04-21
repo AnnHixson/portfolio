@@ -1,14 +1,19 @@
-const kingDescription = document.getElementById('hidden-king');
-kingDescription.style.display = 'none';
+const kingDescriptionText = document.getElementById('hidden-king');
+kingDescriptionText.style.display = 'none';
+
+const kingDescriptionButton = document.getElementById('description-king');
+
 
 function displayKingDescription(event) {
     event.preventDefault();
 
-    if (kingDescription.style.display === 'none') {
-        kingDescription.style.display = 'block';
-    } else if (kingDescription.style.display === 'block') {
-        kingDescription.style.display = 'none';
+    if (kingDescriptionText.style.display === 'none') {
+        kingDescriptionText.style.display = 'block';
+        kingDescriptionButton.textContent = 'Hide Description'
+    } else if (kingDescriptionText.style.display === 'block') {
+        kingDescriptionText.style.display = 'none';
+        kingDescriptionButton.textContent = 'View Description'
     };    
 }
 
-document.getElementById('description-king').addEventListener('click', displayKingDescription);
+kingDescriptionButton.addEventListener('click', displayKingDescription);
