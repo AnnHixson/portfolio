@@ -54,14 +54,18 @@ a:hover {
     text-decoration: underline;
 }
 
-#resume-button {
+.link-button {
     background-color: aqua;
     color: black;
     font-weight: bold;
 }
 
-#resume-button:hover {
+.link-button:hover {
     background-color: black;
     color: aqua;
     box-shadow: 0 0 25px 5px aqua;
+}
+
+p {
+    text-indent: 40px;
 }
