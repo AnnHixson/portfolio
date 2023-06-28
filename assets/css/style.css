@@ -53,3 +53,15 @@ a:hover {
 .contact-link:hover {
     text-decoration: underline;
 }
+
+#resume-button {
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+}
+
+#resume-button:hover {
+    background-color: black;
+    color: aqua;
+    box-shadow: 0 0 25px 5px aqua;
+}
