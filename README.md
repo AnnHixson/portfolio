@@ -18,7 +18,9 @@ Here is the link to the deployed application: [https://annhixson.github.io/portf
 
 ## Credits
 
-N/A
+Image of checkers is from Tai's Captures via unsplash.
+Image of dice is from cocozi via pixabay.
+Image of remote and tv is from Mohamed_hassan via pixabay.
 
 ## License
 
